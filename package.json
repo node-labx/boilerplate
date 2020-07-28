@@ -6,7 +6,8 @@
   "scripts": {
     "test": "nyc ava --verbose --no-cache --timeout=1m",
     "test:watch": "nyc ava --verbose --watch --no-cache --timeout=1m",
-    "report": "nyc report --reporter=html && open coverage/index.html"
+    "report": "nyc report --reporter=html && open coverage/index.html",
+    "release": "np"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/node-labx/boilerplate#readme",
   "devDependencies": {
     "ava": "^3.10.1",
+    "np": "^6.3.2",
     "nyc": "^15.1.0"
   }
 }
